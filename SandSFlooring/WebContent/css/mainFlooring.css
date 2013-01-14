@@ -1,10 +1,17 @@
 body{
 	background-color: #DEDEDE;
+	background-image: url('../img/woodFloor.jpg');
+	background-repeat: no-repeat;
 }
 
 a {
     color: #0088CC;
     text-decoration: none;
+}
+
+.mainContent{
+	padding-left: 6px;
+	padding-right: 6px;
 }
 
 .center{

@@ -10,6 +10,9 @@ function ($, _, backbone, template){
             _.bindAll( this );
         },
         
+        events:{
+        },
+        
         render : function()
         {
             this.$el.html( template );

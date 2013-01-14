@@ -4,40 +4,118 @@
             </div>
           </div>
           <div class="row-fluid">
-            <div class="span4">
+            <div class="span4 mainContent">
               <h2>Restretch Carpet</h2>
-              <p>his is needed when your carpet has bubbles or wrinkles. If you are having your carpets cleaned then we suggested scheduling Steve first.
-</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p>his is needed when your carpet has bubbles or wrinkles. If you are having your carpets cleaned then we suggested scheduling Steve first.</p>
+              <p><a class="btn" id="restretch" href="#restretchModal" data-toggle="modal" role="button">View details &raquo;</a></p>
               <hr/>
             </div><!--/span-->
-            <div class="span4">
+            <div class="span4 mainContent">
               <h2>Carpet</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" id="carpet" href="#carpetModal" data-toggle="modal" role="button">View details &raquo;</a></p>
               <hr/>
             </div><!--/span-->
-            <div class="span4">
+            <div class="span4 mainContent">
               <h2>Tile</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" id="tile" href="#tileModal" data-toggle="modal" role="button">View details &raquo;</a></p>
                <hr/>
             </div><!--/span-->
           </div><!--/row-->
           <div class="row-fluid">
-            <div class="span4">
+            <div class="span4 mainContent">
               <h2>Laminate</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" id="laminate" href="#laminateModal" data-toggle="modal" role="button">View details &raquo;</a></p>
             </div><!--/span-->
-            <div class="span4">
+            <div class="span4 mainContent">
               <h2>Ceramic</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" id="ceramic" href="#ceramicModal" data-toggle="modal" role="button">View details &raquo;</a></p>
             </div><!--/span-->
-            <div class="span4">
+            <div class="span4 mainContent">
               <h2>Outdoor</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" id="outdoor" href="#outdoorModal" data-toggle="modal" role="button">View details &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
+          
+<!-- Modals -->
+<div id="restretchModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Carpet Restretch</h3>
+  </div>
+  <div class="modal-body">
+    <p>How to restretch carpet</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>    
+
+<div id="carpetModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Carpeting</h3>
+  </div>
+  <div class="modal-body">
+    <p>Stuff about carpet</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div> 
+
+<div id="tileModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Tile</h3>
+  </div>
+  <div class="modal-body">
+    <p>Tile info</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div> 
+
+<div id="laminateModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Laminate</h3>
+  </div>
+  <div class="modal-body">
+    <p>Laminate things.</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div> 
+
+<div id="ceramicModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Ceramic</h3>
+  </div>
+  <div class="modal-body">
+    <p>Ceramic and such</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div> 
+
+<div id="outdoorModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Outdoor</h3>
+  </div>
+  <div class="modal-body">
+    <p>Outdoor stuff.</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>       
