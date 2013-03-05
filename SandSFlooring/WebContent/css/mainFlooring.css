@@ -1,7 +1,16 @@
+@font-face {
+    font-family: "Archive";
+    src: url('../fonts/Archive.otf') format("opentype");
+}
+
 body{
 	background-color: #DEDEDE;
-	background-image: url('../img/woodFloor-min.jpg');
+	background-image: url('../img/largeHardwood-cut1.jpg');
 	background-repeat: no-repeat;
+}
+
+h3 {
+	font-family: Archive;
 }
 
 a {
@@ -12,10 +21,30 @@ a {
 .mainContent{
 	padding-left: 6px;
 	padding-right: 6px;
+	background-color: #eeeeee;
+	border-radius: 5px;	
+}
+
+.smallWidget{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.buttonSpan{
+	text-align: right;
+}
+
+.hero-unit{
+	/* background-image: url('../img/hammerNail.jpg');
+	background-repeat: no-repeat; */
+	background-position: 50% top;
+	overflow: hidden;
+	text-align: center;
+	height: 200px; 
 }
 
 .center{
-	background-color: #EEEEEE;
+	/* background-color: #EEEEEE; */
 	
 	border-radius:25px;
 }
